@@ -21,7 +21,7 @@ h2, h3, h4 {
 
 h1 {
   color: #fff;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 200;
   margin: .6em auto;
 }
@@ -100,6 +100,7 @@ h3 {
   }
 
   .banner-text h1 {
+    font-size: 4rem;
     margin-top: 2.8em;
   }
 }
