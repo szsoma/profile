@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 500;
+  font-weight: 700;
   color: #000;
   font-size: 1.6rem;
 }
@@ -39,7 +39,7 @@ p {
 }
 
 h3 {
-  font-weight: 500;
+  font-weight: 700;
   color: #000;
   font-size: 1.2rem;
 }
@@ -90,8 +90,64 @@ h3 {
   color: #ff0000;
 }
 
+/*   Pros   */
 
-/*   Media Querrie's   */
+.pros-block {
+  margin-top: 1.6rem;
+}
+
+.fa {
+  color: #000;
+}
+
+.pros-block h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+
+.pros-block p {
+  font-size: .8rem;
+}
+
+
+
+
+
+/*   To Top   */
+
+#scroll {
+    position:fixed;
+    right:30px;
+    bottom:30px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#ddd;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#fff
+}
+#scroll:hover {
+    background-color:#000;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+
+/*   Media Querri's   */
 
 @media screen and ( min-width: 768px ){
   :root {
@@ -103,6 +159,11 @@ h3 {
     font-size: 4rem;
     margin-top: 2.8em;
   }
+
+  .pros-block {
+    margin-top: 0;
+  }
+
 }
 
 
