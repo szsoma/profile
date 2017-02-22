@@ -1,4 +1,4 @@
-(function($) {
+$(document).ready(function() {
     var $window = $(window),
         $html = $('.pros-block');
 
@@ -13,4 +13,4 @@
     $window
         .resize(resize)
         .trigger('resize');
-})(jQuery);
+});
