@@ -50,32 +50,42 @@ h3 {
 
 /*   Navbar   */
 
-.nav-container {
-  background-color: #000;
-  padding: 0;
-}
-
 .navbar {
   margin: 0;
+  background-color: #000;
 }
 
-.nav {
-  padding-top: .4em;
-}
-
-.nav li a,
-.nav li a:visited {
+.navbar .collapse li a,
+.navbar .collapse li a:visited {
   font-weight: 300;
   color: #fff;
   text-decoration: none;
   margin: 0 4em;
 }
 
-.nav li a:hover,
-.nav li a:focus {
+.navbar .collapse li a:hover,
+.navbar .collapse li a:focus {
   color: #aaa;
   text-decoration: none;
   background-color: transparent;
+}
+
+.navbar-toggle {
+  background: transparent;
+  border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
+  background-color: transparent;
+}
+
+.navbar-toggle .icon-bar+.icon-bar {
+    margin-top: 7px;
+}
+
+.navbar-toggle .icon-bar {
+  height: 1px;
 }
 
 /*   Banner   */
@@ -122,7 +132,8 @@ h3 {
     cursor:pointer;
     width:50px;
     height:50px;
-    background-color:#ddd;
+    background-color:#000;
+    opacity: .4;
     text-indent:-9999px;
     display:none;
     -webkit-border-radius:60px;
@@ -142,7 +153,7 @@ h3 {
 }
 #scroll:hover {
     background-color:#000;
-    opacity:1;
+    opacity: .5;
     filter:"alpha(opacity=100)";
     -ms-filter:"alpha(opacity=100)";
 }
