@@ -50,6 +50,19 @@ h3 {
 
 /*   Navbar   */
 
+.navbar-brand {
+  background-color: #fff;
+  -webkit-mask:  url("../img/kod-logo.svg") no-repeat 50% 50%;
+  mask: url("../img/kod-logo.svg") no-repeat 50% 50%;
+  width: 50px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.navbar-brand:hover {
+  background-color: #aaa;
+}
+
 .navbar {
   margin: 0;
   background-color: #000;
