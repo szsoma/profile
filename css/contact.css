@@ -1,0 +1,34 @@
+.contact-head,
+.contact-form {
+  margin-top: 3rem;
+}
+
+.dataform h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-form {
+  background-color: #f1f1f1;
+  padding: 3rem;
+}
+
+.fa-envelope-o {
+  font-size: 3rem;
+}
+
+input {
+  margin-top: 1rem;
+  line-height: 1.4em;
+}
+
+.data-input {
+  padding: 0;
+}
+
+@media screen and ( min-width: 768px ){
+  .data-input {
+    box-sizing: content-box;
+    padding: 0;
+  }
+}
