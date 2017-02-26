@@ -161,12 +161,8 @@ h3 {
 
 .head-text a:hover,
 .head-text a:active {
-  padding: 15px 30px;
   color: #fff;
   background-color: #000;
-  font-weight: 300;
-  text-decoration: none;
-  font-size: .9rem;
   transition: 300ms ease-in-out;
 }
 
@@ -187,15 +183,16 @@ h3 {
   margin: 2rem 0;
 }
 
-
+button,
+button:visited,
 .footer a,
 .footer a:visited {
   transition: 300ms ease-in-out;
-  box-sizing: content-box;
   padding: 15px 30px;
   color: #fff;
   font-weight: 300;
   text-decoration: none;
+  border: none;
   font-size: .8rem;
   background: linear-gradient(163deg, #008cff, #ff00df);
   background-size: 200% 200%;
@@ -204,16 +201,17 @@ h3 {
   animation: anim 18s ease infinite;
 }
 
+button:hover,
+button:active,
 .footer a:hover,
 .footer a:active {
   transition: 300ms ease-in-out;
-  box-sizing: content-box;
   padding: 15px 30px;
   background-color: #000;
-  font-weight: 300;
+  font-weight: 700;
   text-decoration: none;
   font-size: .8rem;
-  border: .02em solid #000;
+  border-radius: 0;
 }
 
 @-webkit-keyframes anim {

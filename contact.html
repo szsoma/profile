@@ -66,18 +66,39 @@
 
 <!--   Contact Form Zone   -->
 
-<div class="container contact-form">
-    <div class="col-xs-12 col-md-12 col-lg-12 dataform">
+<div class="container contact-form ">
+    <div class="row dataform">
       <form class="ajanlatkeres" action="index.html" method="post">
-        <div class="row">
           <h3 class="text-left">Ajánlat kérés</h3>
             <div class="col-xs-12 col-md-6 col-lg-6 data-input">
               <input type="text" class="form-control" placeholder="Teljes neved" required>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-6 data-input">
-              <input type="text" class="form-control" placeholder="Teljes neved" required>
+              <input type="text" class="form-control" placeholder="Email cím" required>
             </div>
-        </div>
+      </form>
+    </div>
+</div>
+
+<div class="container contact-form">
+    <div class="row dataform">
+      <form class="ajanlatkeres" action="index.html" method="post">
+          <h3 class="text-left">Projekt adatok</h3>
+          <div class="col-xs-12 col-md-12 col-lg-12 text-left deadline">
+            <h4>Mikor kezdődne a projekt?</h4>
+            <select name="deadline">
+                <option value="" selected="selected">Kérlek válasz...</option>
+                <option value="egy_honap">Egy hónapon belül</option>
+                <option value="ket_honap">Két hónapon belül</option>
+                <option value="harom_honap">Három hónapon belül</option>
+                <option value="fel_ev">Fél éven belül</option>
+              </select>
+          </div>
+          <div class="col-xs-12 col-md-12 col-lg-12 text-left data-input textarea-div">
+            <h4>Írd le miben segíthetek!</h4>
+            <textarea name="user_message" rows="8"></textarea>
+          </div>
+          <button class="send-btn" type="button" name="button">Küldés</button>
       </form>
     </div>
 </div>

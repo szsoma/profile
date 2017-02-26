@@ -1,34 +1,96 @@
+/*   Contact Form   */
+
 .contact-head,
 .contact-form {
   margin-top: 3rem;
 }
 
 .dataform h3 {
-  padding: 0;
   margin: 0;
 }
 
 .contact-form {
   background-color: #f1f1f1;
   padding: 3rem;
+  border-bottom: .3em solid #ccc;
+  margin: 1rem;
 }
 
 .fa-envelope-o {
   font-size: 3rem;
 }
 
-input {
-  margin-top: 1rem;
-  line-height: 1.4em;
+.data-input input {
+  padding: 1rem;
+  border-radius: 0;
+}
+
+
+/*   Project Form   */
+
+.deadline {
+  padding: 0;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+select {
+  font-size: 1rem;
+  font-weight: 300;
+  width: 100%;
+  padding: .5rem;
+}
+
+select option {
+  font-size: .8rem;
+  font-weight: 300;
+  line-height: 2rem;
+}
+
+textarea {
+  overflow: hidden;
+  max-width: 100%;
+  width: 100%;
+  resize: none;
+  font-size: .9rem;
+  font-weight: 300;
 }
 
 .data-input {
   padding: 0;
+  margin-top: 1rem;
+}
+
+.textarea-div {
+  padding-bottom: 1.2rem;
+}
+
+.send-btn {
+  width: 10rem;
 }
 
 @media screen and ( min-width: 768px ){
-  .data-input {
-    box-sizing: content-box;
-    padding: 0;
+  .contact-form {
+    margin: 2rem auto;
   }
+
+  .data-input,
+  .ajanlatkeres h3 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  .deadline {
+    padding: .5rem;
+  }
+
+  label select {
+    font-size: 1srem;
+    width: 100%;
+    font-weight: 300;
+    margin: auto;
+  }
+
 }
