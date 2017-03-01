@@ -1,0 +1,45 @@
+/*   Reference   */
+
+.reference-head {
+  margin-top: 3rem;
+}
+
+.reference-cont {
+  margin-top: 3rem;
+}
+
+.reference {
+  padding: 0;
+}
+
+.divider {
+  background-color: #f5f5f5;
+  margin-bottom: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #000;
+}
+
+.reference:hover .overlay {
+  opacity: .8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
