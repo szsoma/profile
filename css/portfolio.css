@@ -1,11 +1,21 @@
 /*   Reference   */
 
 .reference-head {
-  margin-top: 3rem;
+  background: url("../img/port-header.png") no-repeat;
 }
 
-.reference-cont {
-  margin-top: 3rem;
+.reference-head .head-text {
+  padding: 6rem 1rem;
+}
+
+.reference-head .head-text p {
+  font-size: 1.4rem;
+  margin: 0;
+  color: #fff;
+}
+
+.works .head-text {
+  margin: 5rem 0;
 }
 
 .reference {
@@ -42,4 +52,10 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+
+@media screen and ( min-width: 768px ){
+  .reference-head {
+    margin-top: 3rem;
+  }
 }
