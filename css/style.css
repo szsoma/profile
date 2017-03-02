@@ -183,8 +183,8 @@ h3 {
   margin: 2rem 0;
 }
 
-button,
-button:visited,
+.send-btn button,
+.send-btn button:visited,
 .footer a,
 .footer a:visited {
   transition: 300ms ease-in-out;
@@ -201,8 +201,8 @@ button:visited,
   animation: anim 18s ease infinite;
 }
 
-button:hover,
-button:active,
+.send-btn button:hover,
+.send-btn button:active,
 .footer a:hover,
 .footer a:active {
   transition: 300ms ease-in-out;
