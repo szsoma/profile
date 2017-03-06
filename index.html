@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -54,11 +55,11 @@
 <div class="banner">
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-lg-6 text-left banner-text">
+      <div class="col-xs-12 col-lg-6 text-left banner-text wow fadeIn">
         <h1>Simple.<br>Beautiful.<br>Webdesign<span>.</span></h1>
       </div>
 
-      <div class="col-xs-12 col-lg-6 banner-img">
+      <div class="col-xs-12 col-lg-6 banner-img wow fadeIn">
         <img class="img-responsive" src="img/macbook.png" alt="macbook">
       </div>
 
@@ -84,7 +85,7 @@
 
 <!--   Pros Zone   -->
 
-<div class="container section pros">
+<div class="container section pros wow fadeInUp">
   <div class="row">
     <div class="col-xs-12 col-md-6 col-lg-3 pros-block">
       <i class="fa fa-diamond fa-4x" aria-hidden="true"></i>
@@ -116,7 +117,7 @@
 
 <!--   Blog Zone   -->
 
-<div class="container section Blog">
+<div class="container section Blog wow fadeInUp">
   <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12 head-text">
       <h2>Blog</h2>
@@ -138,7 +139,7 @@
         <p>Ha bármilyen kérdésed van keress bátran. Közösen biztos találunk megoldást!</p>
 
         <form action="contact.html">
-          <input type="submit" value="Tovább" />
+          <button type="submit" name="button">info@kod.hu</button>
         </form>
 
         <div class="social">
@@ -171,5 +172,9 @@
     <script src="js/alap.js"></script>
     <script src="js/addclass.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

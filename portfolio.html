@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -52,7 +53,7 @@
 
 <!--   Head-pic Zone   -->
 
-<div class="container reference-head">
+<div class="container reference-head wow fadeInUp">
   <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12 head-text">
       <p>Weblapokat, webes applikációkat tervezek, melyek<br>segítenek abban, hogy az üzleted sikeres legyen.</p>
@@ -64,7 +65,7 @@
 
 <!--   Reference Zone   -->
 
-<div class="container works">
+<div class="container works wow fadeIn">
   <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12 head-text">
       <h3>Korábbi munkáim:</h3>
@@ -72,7 +73,7 @@
   </div>
 </div>
 
-<div class="container-fluid reference-cont">
+<div class="container-fluid reference-cont wow fadeIn">
   <div class="row">
     <div class="col-xs-12 col-md-6 col-lg-3 reference">
       <a href="#"><img class="img-responsive image" src="img/expo.jpg" alt="expo"></a>
@@ -129,7 +130,7 @@
 
 <!--   Contact Zone   -->
 
-<div class="container section contact">
+<div class="container section contact wow fadeIn">
   <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12 head-text">
       <h2>Kapcsolat</h2>
@@ -155,7 +156,7 @@
         <p>Ha bármilyen kérdésed van keress bátran. Közösen biztos találunk megoldást!</p>
 
         <form action="contact.html">
-          <input type="submit" value="Tovább" />
+          <button type="submit" name="button">info@kod.hu</button>
         </form>
 
         <div class="social">
@@ -188,5 +189,9 @@
     <script src="js/alap.js"></script>
     <script src="js/addclass.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

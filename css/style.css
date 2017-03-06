@@ -198,8 +198,8 @@ h3 {
 
 .send-btn button,
 .send-btn button:visited,
-form input,
-form input:visited {
+form button,
+form button:visited {
   transition: 300ms ease-in-out;
   padding: 15px 30px;
   color: #fff;
@@ -216,8 +216,8 @@ form input:visited {
 
 .send-btn button:hover,
 .send-btn button:active,
-form input:hover,
-form input:active {
+form button:hover,
+form button:active {
   transition: 300ms ease-in-out;
   padding: 15px 30px;
   background-color: #000;
@@ -247,8 +247,7 @@ form input:active {
 /*   Title in other pages   */
 
 .title{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
 }
 
 .title p {
@@ -309,5 +308,10 @@ form input:active {
 
   .pros-block {
     margin-top: 0;
+  }
+
+  .title{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 }

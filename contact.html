@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -52,10 +53,10 @@
 
 <!--   Contact Head Zone   -->
 
-<div class="container contact-head">
+<div class="container contact-head wow fadeIn">
   <div class="row">
     <div class="col-xs-12 col-md-12 col-lg-12 head-text">
-      <i class="fa fa-envelope-o" aria-hidden="true"></i>
+      <!-- <i class="fa fa-envelope-o" aria-hidden="true"></i> -->
       <h2>Készítsünk valami lenyűgözőt!</h2>
       <p>Amennyiben konkrét projekttel szeretnél megkeresni, kérlek töltsd ki az alábbi kérdőívet. A megkeresésekre 48 órán belül válaszolok.</p>
     </div>
@@ -66,7 +67,7 @@
 
 <!--   Contact Form Zone   -->
 
-<div class="container contact-form ">
+<div class="container contact-form wow fadeIn">
     <div class="row dataform">
       <form class="ajanlatkeres" action="index.html" method="post">
           <h3 class="text-left">Ajánlat kérés</h3>
@@ -80,7 +81,7 @@
     </div>
 </div>
 
-<div class="container contact-form">
+<div class="container contact-form wow fadeIn">
     <div class="row dataform">
       <form class="ajanlatkeres" action="index.html" method="post">
           <h3 class="text-left">Projekt adatok</h3>
@@ -105,10 +106,6 @@
 
 <!--   End of Contact Form Zone   -->
 
-
-
-
-
 <!-- Footer Zone -->
 
 <div class="section footer">
@@ -119,7 +116,7 @@
         <p>Ha bármilyen kérdésed van keress bátran. Közösen biztos találunk megoldást!</p>
 
         <form action="contact.html">
-          <input type="submit" value="Tovább" />
+          <button type="submit" name="button">info@kod.hu</button>
         </form>
 
         <div class="social">
@@ -152,5 +149,9 @@
     <script src="js/alap.js"></script>
     <script src="js/addclass.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+      new WOW().init();
+    </script>
   </body>
 </html>

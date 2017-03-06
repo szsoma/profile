@@ -1,19 +1,29 @@
 /*   Work   */
 
-.work-head {
-
+h3 span {
+  font-weight: 800;
+  color: #ff0000;
 }
 
-.work-wrapper-pic {
-
-}
-
-.work-wrapper {
-
+.fa {
+  font-size: 3rem;
 }
 
 /*   Media Querri's   */
 
 @media screen and ( min-width: 768px ){
+
+  .row {
+    margin-top: 5rem;
+  }
+
+  .row:first-child {
+    margin-top: 0;
+  }
+
+  .work-head {
+    padding: 7rem 0;
+  }
+
 
 }
