@@ -56,7 +56,7 @@ h3 {
   mask: url("../img/kod-logo.svg") no-repeat 50% 50%;
   width: 2.5em;
   margin-left: 1rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 
 #logo:hover {
